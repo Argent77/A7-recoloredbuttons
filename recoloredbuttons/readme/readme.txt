@@ -21,6 +21,9 @@ Have fun!
 
 
 Version history:
+v4.1:
+- Made color schemes for BG:EE compatible with the latest game update
+- Uses built-in WeiDU functions for installing color schemes
 v4.0:
 - Changed the resource format of installed graphics files to fix a compatibility 
   issue with the latest BG2:EE update

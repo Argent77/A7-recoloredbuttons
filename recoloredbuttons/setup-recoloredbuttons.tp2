@@ -1,6 +1,6 @@
 BACKUP ~recoloredbuttons/backup~
 AUTHOR ~Argent77~
-VERSION ~v4.0~
+VERSION ~v4.1~
 
 README ~recoloredbuttons/readme/readme.%LANGUAGE%.txt~ ~recoloredbuttons/readme/readme.txt~
 LANGUAGE  ~English~ ~english~ ~recoloredbuttons/languages/english/setup.tra~
@@ -9,24 +9,39 @@ LANGUAGE  ~Polski (tlumaczenie: Cahir)~ ~polish~ ~recoloredbuttons/languages/eng
 BEGIN @3    // Bluish color scheme
   REQUIRE_PREDICATE GAME_IS ~bgee~ @100   // This mod requires Baldur's Gate: Enhanced Edition.
   SUBCOMPONENT @1   // Recolored character's toolbar buttons (BG:EE)
+
   COPY ~recoloredbuttons/bgee/GUIBTACT_blue.BAM~ ~override/GUIBTACT.BAM~
+    LPF ~UPDATE_PVRZ_INDICES~ RET original_base_index new_base_index END
+
+  ACTION_IF (original_base_index >= 0 && new_base_index >= 0) BEGIN
+    ACTION_FOR_EACH file IN ~MOS1000.PVRZ~ BEGIN
+      LAF ~INSTALL_PVRZ~ INT_VAR original_base_index new_base_index STR_VAR source_file = EVAL ~recoloredbuttons/bgee/%file%~ END
+    END
+  END
 
 
 BEGIN @4    // Golden color scheme
   REQUIRE_PREDICATE GAME_IS ~bgee~ @100   // This mod requires Baldur's Gate: Enhanced Edition.
   SUBCOMPONENT @1   // Recolored character's toolbar buttons (BG:EE)
+
   COPY ~recoloredbuttons/bgee/GUIBTACT_gold.BAM~ ~override/GUIBTACT.BAM~
+    LPF ~UPDATE_PVRZ_INDICES~ RET original_base_index new_base_index END
+
+  ACTION_IF (original_base_index >= 0 && new_base_index >= 0) BEGIN
+    ACTION_FOR_EACH file IN ~MOS1001.PVRZ~ BEGIN
+      LAF ~INSTALL_PVRZ~ INT_VAR original_base_index new_base_index STR_VAR source_file = EVAL ~recoloredbuttons/bgee/%file%~ END
+    END
+  END
 
 
 BEGIN @2    // Recolored character's toolbar buttons (BG2:EE)
   REQUIRE_PREDICATE GAME_IS ~bg2ee~ @101    // This mod requires Baldur's Gate II: Enhanced Edition.
-  INCLUDE ~recoloredbuttons/functions/pvrz_funcs.tph~
 
   COPY ~recoloredbuttons/bg2ee/GUIBTACT.BAM~ ~override~
-    LPF ~A7#BAM_UPDATE_PVRZ_INDICES~ RET originalBaseIndex newBaseIndex END
+    LPF ~UPDATE_PVRZ_INDICES~ RET original_base_index new_base_index END
 
-  ACTION_IF (originalBaseIndex >= 0 && newBaseIndex >= 0) BEGIN
+  ACTION_IF (original_base_index >= 0 && new_base_index >= 0) BEGIN
     ACTION_FOR_EACH file IN ~MOS1000.PVRZ~ BEGIN
-      LAF ~A7#PVRZ_COPY_UPDATED~ STR_VAR sourceFile = EVAL ~recoloredbuttons/bg2ee/%file%~ END
+      LAF ~INSTALL_PVRZ~ INT_VAR original_base_index new_base_index STR_VAR source_file = EVAL ~recoloredbuttons/bg2ee/%file%~ END
     END
   END
