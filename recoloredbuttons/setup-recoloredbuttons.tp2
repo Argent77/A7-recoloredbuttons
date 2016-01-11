@@ -35,7 +35,7 @@ BEGIN @4    // Golden color scheme
 
 
 BEGIN @2    // Recolored character's toolbar buttons (BG2:EE)
-  REQUIRE_PREDICATE GAME_IS ~bg2ee~ @101    // This mod requires Baldur's Gate II: Enhanced Edition.
+  REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @101    // This mod requires Baldur's Gate II: Enhanced Edition.
 
   COPY ~recoloredbuttons/bg2ee/GUIBTACT.BAM~ ~override~
     LPF ~UPDATE_PVRZ_INDICES~ RET original_base_index new_base_index END
