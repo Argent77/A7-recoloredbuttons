@@ -1,7 +1,7 @@
 Recolored character's toolbar buttons for BG:EE and BG2:EE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wersja: v4.0
+Wersja: v4.1
 Autor:  Argent77
 
 Mod ten wprowadza nowe kolory przycisków paska postaci wyświetlanego na dole ekranu, dzięki czemu łatwiejsze jest odróżnienie przycisku aktywnego od nieaktywnego. 
@@ -23,6 +23,7 @@ Miłej zabawy!
 
 Version history:
 v4.1:
+- Added new icons introduced by the Enhanced Edition patches v2.0
 - Made color schemes for BG:EE compatible with the latest game update
 - Uses built-in WeiDU functions for installing color schemes
 
