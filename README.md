@@ -1,4 +1,4 @@
-#Recolored character's toolbar buttons
+# Recolored character's toolbar buttons
 *A GUI mod for BG:EE and BG2:EE.*
 
 **Author:**  Argent77
