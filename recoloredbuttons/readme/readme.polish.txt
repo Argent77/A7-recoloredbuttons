@@ -13,7 +13,7 @@ Uwaga: instalacja komponentów BG:EE w grze Baldur's Gate: Siege of Dragonspear 
 Komponent dla BG:EE
 Możesz wybrać pomiędzy dwiema tonacjami kolorystycznymi:
 - bardziej nasycona wersja oryginalnego koloru
-- złota tonacja odpowiadajšca kolorom ikon na lewym pasku 
+- złota tonacja odpowiadająca kolorom ikon na lewym pasku
 
 Komponent dla BG2:EE
 Instaluje wersję w niebieskawej/fioletowej tonacji.
