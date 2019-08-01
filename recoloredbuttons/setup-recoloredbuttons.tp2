@@ -2,9 +2,23 @@ BACKUP ~recoloredbuttons/backup~
 AUTHOR ~Argent77~
 VERSION ~v4.1~
 
-README ~recoloredbuttons/readme/readme.%LANGUAGE%.txt~ ~recoloredbuttons/readme/readme.txt~
-LANGUAGE  ~English~ ~english~ ~recoloredbuttons/languages/english/setup.tra~
-LANGUAGE  ~Polski (tlumaczenie: Cahir)~ ~polish~ ~recoloredbuttons/languages/english/setup.tra~ ~recoloredbuttons/languages/polish/setup.tra~
+README ~recoloredbuttons/readme/readme-%LANGUAGE%.txt~
+       ~recoloredbuttons/readme/readme.txt~
+
+LANGUAGE  ~English~
+          ~english~
+          ~recoloredbuttons/languages/english/setup.tra~
+
+LANGUAGE  ~Polski (tlumaczenie: Cahir)~
+          ~polish~
+          ~recoloredbuttons/languages/english/setup.tra~
+          ~recoloredbuttons/languages/polish/setup.tra~
+
+LANGUAGE  ~Deutsch~
+          ~german~
+          ~recoloredbuttons/languages/english/setup.tra~
+          ~recoloredbuttons/languages/german/setup.tra~
+
 
 BEGIN @3    // Bluish color scheme
   REQUIRE_PREDICATE GAME_IS ~bgee~ @100   // This mod requires Baldur's Gate: Enhanced Edition.

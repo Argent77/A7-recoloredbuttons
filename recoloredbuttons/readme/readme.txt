@@ -1,8 +1,15 @@
 Recolored character's toolbar buttons for BG:EE and BG2:EE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version: v4.1
-Author:  Argent77
+Version:    v4.1
+Author:     Argent77
+
+Download:   http://www.shsforums.net/files/file/1079-recolored-toolbar-buttons-for-bgee-bg2ee/
+Discussion: http://www.shsforums.net/topic/57057-mod-recolored-toolbar-buttons-for-bgee-bg2ee/
+
+
+Overview
+~~~~~~~~
 
 This mod provides recolored buttons for the toolbar displayed at the bottom of the 
 screen to make the enabled/disabled states of the buttons more distinguishable. 
@@ -12,6 +19,10 @@ Supports both Baldur's Gate: Enhanced Edition and Baldur's Gate II: Enhanced Edi
 Note: Installing the BG:EE components in Baldur's Gate: Siege of Dragonspear
       is not advisable as the color schemes have been optimized for the 
       original GUI of Baldur's Gate: Enhanced Edition.
+
+
+Mod components
+~~~~~~~~~~~~~~
 
 Component for BG:EE
 You can choose between two color schemes: 
@@ -24,7 +35,13 @@ Installs a bluish/violet color scheme.
 Have fun!
 
 
-Version history:
+Version history
+~~~~~~~~~~~~~~~
+
+v4.2:
+- Added German translation
+- Added download and discussion links to readme
+
 v4.1:
 - Added new icons introduced by the Enhanced Edition patches v2.0
 - Made color schemes for BG:EE compatible with the latest game update
