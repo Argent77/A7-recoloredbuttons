@@ -1,10 +1,11 @@
 Recolored character's toolbar buttons for BG:EE and BG2:EE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Wersja:     v4.1
+Wersja:     v4.2
 Autor:      Argent77
 
 Download:   http://www.shsforums.net/files/file/1079-recolored-toolbar-buttons-for-bgee-bg2ee/
+            https://github.com/Argent77/A7-recoloredbuttons/releases/latest
 Discussion: http://www.shsforums.net/topic/57057-mod-recolored-toolbar-buttons-for-bgee-bg2ee/
 
 

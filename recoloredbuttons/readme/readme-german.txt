@@ -1,10 +1,11 @@
 Eingefärbte Schaltflächen in der Charakterleiste für BG:EE und BG2:EE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version:    v4.1
+Version:    v4.2
 Autor:      Argent77
 
 Download:   http://www.shsforums.net/files/file/1079-recolored-toolbar-buttons-for-bgee-bg2ee/
+            https://github.com/Argent77/A7-recoloredbuttons/releases/latest
 Diskussion: http://www.shsforums.net/topic/57057-mod-recolored-toolbar-buttons-for-bgee-bg2ee/
 
 
