@@ -1,6 +1,13 @@
-BACKUP ~recoloredbuttons/backup~
+BACKUP ~weidu_external/backup/recoloredbuttons~
 SUPPORT ~http://www.shsforums.net/topic/57057-mod-recolored-toolbar-buttons-for-bgee-bg2ee/~
 VERSION ~v4.2~
+
+ALWAYS
+  // required because of non-standard BACKUP path
+  OUTER_TEXT_SPRINT MOD_FOLDER ~recoloredbuttons~
+  // root folder for mutable data
+  OUTER_TEXT_SPRINT WORK_FOLDER ~weidu_external~
+END
 
 README ~recoloredbuttons/readme/readme-%LANGUAGE%.txt~
        ~recoloredbuttons/readme/readme.txt~
