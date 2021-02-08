@@ -1,13 +1,13 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Argent77/A7-recoloredbuttons?color=darkred&include_prereleases&label=latest%20release)](https://GitHub.com/Argent77/A7-recoloredbuttons/releases/latest)
-[![GitHub release date (latest by date)](https://img.shields.io/github/release-date/Argent77/A7-recoloredbuttons?color=gold)](https://GitHub.com/Argent77/A7-recoloredbuttons/releases/latest)
-[![Github downloads (all releases)](https://img.shields.io/github/downloads/Argent77/A7-recoloredbuttons/total.svg?color=blueviolet)](https://GitHub.com/Argent77/A7-recoloredbuttons/releases)
-[![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux&color=informational)](https://GitHub.com/Argent77/A7-recoloredbuttons/releases/latest)
-[![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Polish&color=limegreen)]()
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Argent77/A7-recoloredbuttons?color=darkred&include_prereleases&label=latest%20release)](https://github.com/Argent77/A7-recoloredbuttons/releases/latest)
+[![Github downloads (all releases)](https://img.shields.io/github/downloads/Argent77/A7-recoloredbuttons/total.svg?color=gold)](https://github.com/Argent77/A7-recoloredbuttons/releases)
+[![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux&color=informational)](https://github.com/Argent77/A7-recoloredbuttons/releases/latest)
+[![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BG%3AEE%20%7C%20BG2%3AEE%20%7C%20EET&color=indigo)](https://github.com/Argent77/A7-recoloredbuttons)
+[![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20German%20%7C%20Polish&color=limegreen)](https://github.com/Argent77/A7-recoloredbuttons)
 
 # Recolored character's toolbar buttons
 *A GUI mod for BG:EE and BG2:EE.*
 
-[![SHS Forums](https://img.shields.io/static/v1?label=Discussion&message=SHS%20Forums&color=951514&labelColor=eee&style=flat)](http://www.shsforums.net/topic/57057-mod-recolored-toolbar-buttons-for-bgee-bg2ee/)
+[![SHS Forums](https://img.shields.io/static/v1?label=Discussion&message=SHS%20Forums&color=951514&labelColor=eee&style=for-the-badge)](http://www.shsforums.net/topic/57057-mod-recolored-toolbar-buttons-for-bgee-bg2ee/ "Spellhold Studios Forums")
 
 ## Overview
 
