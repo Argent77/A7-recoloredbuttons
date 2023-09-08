@@ -1,7 +1,7 @@
 Recolored character's toolbar buttons for BG:EE and BG2:EE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version:    v4.2
+Version:    v4.3
 Author:     Argent77
 
 Download:   http://www.shsforums.net/files/file/1079-recolored-toolbar-buttons-for-bgee-bg2ee/
@@ -36,8 +36,19 @@ Installs a bluish/violet color scheme.
 Have fun!
 
 
+Credits
+~~~~~~~
+
+Coding and testing: Argent77
+
+Polish translation: Cahir
+
+
 Version history
 ~~~~~~~~~~~~~~~
+
+v4.3:
+- Adds Project Infinity support
 
 v4.2:
 - Added German translation

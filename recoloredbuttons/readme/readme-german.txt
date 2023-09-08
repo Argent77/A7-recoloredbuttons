@@ -1,7 +1,7 @@
 Eingefärbte Schaltflächen in der Charakterleiste für BG:EE und BG2:EE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version:    v4.2
+Version:    v4.3
 Autor:      Argent77
 
 Download:   http://www.shsforums.net/files/file/1079-recolored-toolbar-buttons-for-bgee-bg2ee/
@@ -35,8 +35,19 @@ Installiert ein bläulich/violettes Farbschema.
 Viel Spaß!
 
 
+Credits
+~~~~~~~
+
+Coding and testing: Argent77
+
+Polish translation: Cahir
+
+
 Version history
 ~~~~~~~~~~~~~~~
+
+v4.3:
+- Adds Project Infinity support
 
 v4.2:
 - Added German translation

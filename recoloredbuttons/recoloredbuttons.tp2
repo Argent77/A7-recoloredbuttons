@@ -1,6 +1,6 @@
 BACKUP ~weidu_external/backup/recoloredbuttons~
 SUPPORT ~http://www.shsforums.net/topic/57057-mod-recolored-toolbar-buttons-for-bgee-bg2ee/~
-VERSION ~v4.2~
+VERSION ~v4.3~
 
 ALWAYS
   // required because of non-standard BACKUP path
