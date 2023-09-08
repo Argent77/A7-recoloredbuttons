@@ -30,6 +30,8 @@ LANGUAGE  ~Deutsch~
 BEGIN @3    // Bluish color scheme
   REQUIRE_PREDICATE GAME_IS ~bgee~ @100   // This mod requires Baldur's Gate: Enhanced Edition.
   SUBCOMPONENT @1   // Recolored character's toolbar buttons (BG:EE)
+  DESIGNATED 0
+  LABEL ~A7-RECOLOREDBUTTONS-BGEE-BLUISH~
 
   COPY ~recoloredbuttons/bgee/GUIBTACT_blue.BAM~ ~override/GUIBTACT.BAM~
     LPF ~UPDATE_PVRZ_INDICES~ RET original_base_index new_base_index END
@@ -44,6 +46,8 @@ BEGIN @3    // Bluish color scheme
 BEGIN @4    // Golden color scheme
   REQUIRE_PREDICATE GAME_IS ~bgee~ @100   // This mod requires Baldur's Gate: Enhanced Edition.
   SUBCOMPONENT @1   // Recolored character's toolbar buttons (BG:EE)
+  DESIGNATED 1
+  LABEL ~A7-RECOLOREDBUTTONS-BGEE-GOLDEN~
 
   COPY ~recoloredbuttons/bgee/GUIBTACT_gold.BAM~ ~override/GUIBTACT.BAM~
     LPF ~UPDATE_PVRZ_INDICES~ RET original_base_index new_base_index END
@@ -57,6 +61,8 @@ BEGIN @4    // Golden color scheme
 
 BEGIN @2    // Recolored character's toolbar buttons (BG2:EE)
   REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ @101    // This mod requires Baldur's Gate II: Enhanced Edition.
+  DESIGNATED 2
+  LABEL ~A7-RECOLOREDBUTTONS-BG2EE~
 
   COPY ~recoloredbuttons/bg2ee/GUIBTACT.BAM~ ~override~
     LPF ~UPDATE_PVRZ_INDICES~ RET original_base_index new_base_index END
